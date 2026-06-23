@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+        header{
+
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border: 10px;
+        }
+        main{
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 15px;
+            box-shadow: 5px 8px 3px 3px rgba(0, 0, 0, 0.267);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align:center;
+            padding: 5px;
+            margin: 10px;
+
+            
+        }
+        nav{
+            width: 600PX;
+            background-color:rgba(90, 88, 88, 0.575);
+            padding: 5px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.534);
+             
+            
+
+        }
+         nav > a {
+            text-decoration: none;
+            margin-right: 30px;
+            font-weight: bold;
+         }
+        
+         
+        article{
+            background-color: rgb(90, 88, 88);
+            padding: 1px;
+        }
+        article > aside {
+            background-color: rgb(73, 73, 73);
+        }
+        footer > P{
+            margin: 0PX;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: auto;
+            border-radius: 60%;
+        }
+
+    </style>
+</head>
+<body>
+  <header>
+        <h1>Meu site </h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+  </header>
+  <main>
+    <section class="assuntos">
+        <p> Messi fez um hat-trick incrivel contra a Argelia</p>
+    </section>
+    <section class="noticias">
+        <P>Portugal Estreia hoje contra o RDC</P>
+        <article>
+            <h2>Noticias sobre Angoloa</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto obcaecati temporibus, commodi nam in, itaque nesciunt eligendi corrupti laudantium eum officiis inventore praesentium. Aspernatur, aliquam! Consequatur ipsa vero veritatis vel.</p>
+            <aside>
+                <p>Artigo escrito por Jose da Silva</p>
+            </aside>
+        </article>
+         <article>
+
+         </article>
+    </section>
+  </main>
+   <footer>
+    <p>Desenvolvido por Kalen Ingles</p>
+   </footer>
+   <div id="bola"></div>
+
+</body>
+</html>

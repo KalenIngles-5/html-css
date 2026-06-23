@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{
+    font: 400 1.5em arial,sans-serif ;
+    background-color: gray;
+
+    }
+
+#principal{
+    font-family: Arial, Helvetica, sans-serif;
+}

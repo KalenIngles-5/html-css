@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <H1>Imagem dinamica</H1>
+    <p>tente abrir este site em varios dispositivos diferentes ou simplesmente aumentec e diminua o tamnho do seu navegador</p> 
+    <picture>
+        <source media="(max-width:750px )" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="Imagem/foto.m.png" type="image/png">
+      <img src="imagem/foto-g.png" alt="imagem flexivel">  
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aorender a reproduzir audios</p>
+    <audio preload="metadata" controls  autoplay >
+    <source src="midia/Wildfire - Jessie Villa.mp3" type="audio/mpeg">
+    <p>Infelizmente dseu navegador nao consegue reproduzir <a href="midia/Wildfire - Jessie Villa.mp3"> cique aqui para baixar arquivo</a></p>    
+    </audio>
+
+</body>
+</html>
