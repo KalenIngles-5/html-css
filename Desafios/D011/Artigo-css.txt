@@ -1,13 +1,7 @@
 O Código por Trás das Cores
 
 A Revolução Visual que Deu Vida à Web
-
-[MENU]
-Home
-Notícias
-Curiosidades
-Fale Conosco
-
+ 
 História do Estilo na Web
 
 Provavelmente você sabe que o CSS é a linguagem usada para deixar todas as páginas da internet bonitas, coloridas e organizadas. Mas talvez você não saiba que, no início da web, as páginas eram apenas textos sem graça e que a criação dessa tecnologia envolveu uma disputa intensa? Pois acompanhe esse artigo para aprender muita coisa sobre essa evolução.  
@@ -28,7 +22,7 @@ A ideia de padronizar o visual foi amadurecendo e a missão principal veio de um
 [FOTO]
 
 A ideia principal de Håkon era separar totalmente o conteúdo (que fica no HTML) do design (que fica no CSS). O código deveria ser simples, limpo e direto, permitindo que qualquer pessoa mudasse a cor de todos os títulos de um site alterando apenas uma linha de código.  
-TXT
+
 
 [FOTO]
 

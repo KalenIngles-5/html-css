@@ -1,0 +1,43 @@
+ @charset "UTF-8";
+
+  :root{
+    --fonte-padrao: Arial, Verdana, helvetica, Sans-serif;
+    --cor1:#0577B7; 
+    --cor2:#1E5F85 ;
+    --cor3:#234152 ;
+    --cor4:#10274F;
+    --cor5:#0F4C81;
+    --cor7:#0F4C81;
+    --cor7:#1E88E5;
+    --cor8:#64B5F6;
+    --cor9:#F8FAFC;
+  }
+*{
+    margin:0px;
+}
+body{
+    font-family: var(--fonte-padrao);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+
+}
+
+header  {
+    background-image: linear-gradient(to bottom, var(--cor8), var(--cor3));
+    min-height: 150px;
+    text-align: center;
+}
+
+
+nav{
+    padding-top:75px
+}
+ main{ 
+    font-size: 1.2em;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: var(--cor9);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: justify;
+    padding: 10px;
+ }
