@@ -123,3 +123,23 @@ nav {
     color: var(--cor5);
     font-family:var(--fonte-destaque)
  }
+
+ main  img {
+    max-width: 100%;
+    display: block;
+    margin: 22px auto;
+    border-radius: 12px;
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.18);
+    object-fit: cover;
+    max-height: 400px;
+ }
+main  img.web{
+  object-fit: cover;
+    width: 100%;
+    max-height: 500px;
+    height: auto;
+    display: block;
+    margin: 22px auto;
+    border-radius: 12px;
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.18);
+}
