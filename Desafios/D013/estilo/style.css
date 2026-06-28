@@ -1,0 +1,155 @@
+ @charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+.passion-one-regular {
+  font-family:"Passion one",cursive;
+  font-weight:400;
+  font-style:normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+:root{
+
+   --font1:Arial,verdana,tahoma,sans-serif;
+   --fonte2:"Passion one" cursive;
+   --fonte3:"Patrick Hand",cursive;
+
+
+
+
+
+
+
+}
+ 
+
+    main > section{
+      
+     }
+ 
+  section > p { 
+ 
+   
+   white-space: pre-line;
+   
+
+ }
+
+ html,body{
+    min-height: 100vh;
+    background-color: darkgray;
+
+ }
+
+ header{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+   
+   
+ 
+    
+    
+
+ }
+
+ header > h1{
+   padding-top: 50px;
+   font-variant: small-caps;
+   padding-bottom: 10px;
+   font-family: var(--font1);
+   font-size: 6.7vw;
+
+ }
+
+ header > p{
+    padding-bottom: 50px;
+   
+ }
+
+ a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+ }
+
+ a:hover{
+    text-decoration: underline;
+ }
+
+
+ section{
+
+    padding-top: 10vh;
+   padding-bottom: 10vh;
+    line-height: 1.7em;
+    padding-left:30px ;
+    font-family: var(--fonte3);
+    font-weight: bold;
+    font-size: 1.2em;
+   
+ }
+
+
+ section.normal{
+    background-color: #fff;
+    color: black;
+
+
+ }
+
+
+ section.imagem{
+    padding-bottom:100PX ;
+    padding-top:100PX;
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596) ;
+     
+
+ }
+
+ section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.500);
+    text-shadow:  2px 2px 1px black;;
+ }
+
+ section#img-01{
+   background-image: url(../pacote-d012/imagens/background001.jpg);
+   background-position: right center;
+
+
+ }
+
+ section#img-02{
+   background-image: url( ../pacote-d012/imagens/background002.jpg);
+   background-position: right center;
+ }
+
+
+ footer{
+
+    background-color: black;
+    text-align: center;
+    color: #fff;
+     padding: 12px;
+
+
+
+
+ }
+ 
