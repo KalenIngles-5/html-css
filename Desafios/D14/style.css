@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto- <uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+:root{
+    --main-cor1:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:0.1rem solid rgba(255,255,255,0.3);
+    --border2:0.1rem solid #d3ad7f;
+    font-size:10px
+}
+section{
+    padding:3rem 2rem;
+    margin:0 auto;
+    max-width:1200px;
+}
+
+
+*{
+    Margin:0px;
+    Padding:0px;
+    outline:none;
+    border:none;
+    text-decoration:none;
+    text-transform:capitalize;
+    transition:0.5s linear ;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body{
+     background:var(--bg);
+}
+
+.header{
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 99;
+    border-bottom:var(--border);
+ 
+}
+
+.header section {
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+   padding:1.5rem;
+   padding-bottom:1.5rem;
+}
+
+.navM a {
+    margin:0 1rem;
+    font-size:1.8rem;
+    color:#fff;
+      
+
+}
+
+.navM a:hover{
+     color: var(--main-cor1);
+     border-bottom: var(--border2);
+     padding:0px 1px 3px 1px;
+     font-size:1.9 rem
+    
+}
+
+div.icons > img{
+ 
+   
+}
+main{
+    background-image: url(imagens/home-img.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    padding-top: 5px;
+   
+   
+
+}
+
+main section{
+ display: flex;
+ align-items: center;
+ min-height: 100vh;
+
+}
+
+
+.btn{
+    background-color: var(--main-cor1);
+    color:white;
+    padding: 1rem  2.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+ 
+
+
+}
+
+div.content{
+    max-width: 60rem;
+}
+
+.content h3{
+    color: white;
+    font-size: 6rem;
+}
+
+.content p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 3rem;
+    padding: 1rem 0;
+}
+
