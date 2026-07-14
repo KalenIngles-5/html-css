@@ -117,28 +117,29 @@ div.icons>img {}
 }
 
 .btn:hover{
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
 }
 
-div.content {
+div.content1,.content2 {
     max-width: 60rem;
 }
 
-.content h3 {
+.content1 h3 {
     color: white;
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
-.content p {
+.content1 p {
     color: white;
     font-size: 2rem;
     font-weight: 100;
     line-height: 3rem;
     padding: 1rem 0;
+ 
 }
 
 .title{
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--main-cor1);
     text-align: center;
     text-transform: uppercase;
@@ -154,7 +155,7 @@ div.content {
 
 
 
- .sobre .row {
+ .about .row {
    display: flex;
    align-items: center;
    gap: 1.5rem;
@@ -166,15 +167,122 @@ div.content {
     padding: 2rem;
  }
 
- .content h3{
+ .content2 h3{
+    margin-top: 5px;
+   
     font-size: 3rem;
     color: #fff;
  }
 
- .content p{
-    font-size: 1.6rem;
-    padding: 1rem 0rem;
-    line-height: 2.5rem;
+ .content2 p{
+   
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 3rem;
+    padding: 1rem 0;
  }
+ .Menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+ }
+ 
+
+ .Menu .box-container .box{
+        border: var(--border);
+        text-align: center;
+        padding-bottom: 5rem;
+        cursor: pointer;
+
+ }
+
+ .Menu .box-container .box:hover{
+
+    background-color: #fff;
+   
+
+ }
+
+
+ .Menu .box-container .box img{
+    height: 10rem;
+ }
+
+ .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem 0rem;
+ }
+
+ .box .price{
+
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 0.5rem 0rem;
+ }
+
+  .box span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color:rgb(58, 58, 70);
+    font-weight: bolder;
+    
+ }
+
+ .Menu .box-container .box:hover>*{
+       color: var(--black);
+        
+
+ }
+  section.reviews .box-container .box {
+    min-height:480px ;
+ }
+
+ section.reviews .box-container .box img.img2{
+   
+    border-radius: 50%;
+ }
+
+
+ section.reviews .box-container .box img.img1{
+    height: 2rem;
+    border-radius: 50%;
+ }
+
+  section.reviews .box-container .box p {
+     color: #fff;
+     padding: 20px 20px;
+     font-size: 2rem;
+     min-width:150px;
+     font-family: Arial, Helvetica, sans-serif;
+    
+    
+  }
+
+    section.reviews .box-container .box h3{
+     padding: 20px 0px;
+  }
+   .address{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   }
+
+
+  
+ 
+ 
+ 
+
+ 
+
+ 
+
+
+
+
+
+
     
     
