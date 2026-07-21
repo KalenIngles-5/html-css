@@ -98,13 +98,17 @@ body {
 
     .navM{
         display: none;
-        width: 100%;
+        width: 20%;
         position: absolute;
         top: 100%;
         left: 0%;
         background-color: var(--bg);
         text-align: center;
         order: 4;
+        flex-direction: column;
+        align-items: flex-start;
+        border-right: 10px  green;
+        
          
     }
 }
@@ -228,9 +232,9 @@ div.icons>img {}
 .btn:hover{
     letter-spacing: 0.1rem;
 }
+.div.content1 {
 
-div.content1,content2 {
-    width: 60rem;
+   width: 100%;
 }
 
  
@@ -272,6 +276,7 @@ div.content1,content2 {
    background-color: var(--black);
    
  }
+ 
 
  .row .content{
     
