@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        border: 2px solid black; 
+    }
+
+    main h1{
+        text-shadow: none;
+        color: #000;
+
+    }
+
+ body{
+    background-image: url(../imagens/back-print.jpg);
+ }
+
+ #phone{
+    display: none;
+    
+ }
+
+ #print{
+    display: block;
+ }
+}
+
+ 
+
+@media screen and (min-width:769px) and (max-width:992px){
+    body{
+        
+        background-image: url(../imagens/back-tablet.jpg) ;
+        
+        
+    }
+
+    #phone{
+        display: none;
+        
+    }
+
+    #tablet{
+        display: block;
+    }
+
+  
+}
+
+@media screen and (min-width:993px) and (max-width:1201px){
+        body{
+            background-image: url(../imagens/back-pc.jpg);
+        }
+
+        #phone{
+            display: none;
+
+        }
+
+        #pc{
+            display: block;
+        }
+}
+
+@media screen and (min-width:1202px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #phone{
+        display: none;
+    }
+    #tv{
+        display: block;
+    }
+}
+

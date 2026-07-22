@@ -114,7 +114,9 @@ body {
 }
 
 @media (max-width:768px) {
-
+     #home{
+        background-position: left center !important;
+     }
     .about .row {
         flex-direction: column;
     }
@@ -207,10 +209,10 @@ div.icons>img {}
     display: flex;
     align-items: center;
     min-height: 100vh;
-
     background: url("./imagens/home-img.jpg");
     background-position: top center;
     background-size: cover;
+    padding: 7rem;
     background-repeat: no-repeat
 }
 
@@ -232,9 +234,9 @@ div.icons>img {}
 .btn:hover{
     letter-spacing: 0.1rem;
 }
-.div.content1 {
+div.content1  {
 
-   width: 100%;
+   width: 60rem;
 }
 
  
@@ -249,7 +251,11 @@ div.icons>img {}
     font-weight: 100;
     line-height: 3rem;
     padding: 1rem 0;
+  
  
+}
+.content2 p {
+    box-sizing: border-box;
 }
 
 .title{
@@ -389,6 +395,7 @@ div.icons>img {}
     border: 0;
    }
 
+ 
 
 
 
