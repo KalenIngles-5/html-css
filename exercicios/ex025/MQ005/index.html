@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="estilo/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamnho()">
     <header>
         <h1 id="title">Meu site</h1>
          <div id="icon">
@@ -16,7 +17,7 @@
          </div>
         <menu id="itens">
             <ul>
-            <li id="pitem">
+            <li id="item">
                 <a href="" id="item">Opcao 1</a>
                 <a href="" id="item">Opcao 2</a>
                 <a href="" id="item" >Opcao 5 </a>
