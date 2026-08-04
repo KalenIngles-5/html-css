@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactar</title>
-    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/imports.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
@@ -12,11 +12,17 @@
     <header>
         <nav id="navbar">
             <img src="img/logo-dark.png" alt="logo.png" class="logo">
-             <ul id="nav_list">
+             <ul id="nav-list">
                     <li class="nav-item">
                         <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#" class="nav-link">Projectos</a>
-                        <a href="#" class="nav-link-active">Contactos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Contactos </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#" class="nav-link">Sobre</a>
                     </li>
              </ul>
@@ -161,11 +167,90 @@
                     
                     >
                 </div>
+                 <div class="input-group">
+                    <label for="sub">
+                        Assunto
+                    </label>
+                    <input type="text" name="Email" id="sub" 
+                    required
+                    
+                    >
+                </div>
+                  <div class="input-group">
+                    <label for="men">
+                        Mensagem
+                    </label>
+
+                    <textarea name="" id="men" placeholder="Escreva aqui"
+                    required rows="5"
+                    ></textarea>
+                </div>
+
+                <button type="submit">
+
+                    Enviar mensagem
+                </button>
 
             </form>
 
 
         </section>
+
+        <footer>
+            <img src="img/logo-light.png" alt="logo"
+            class="footer'logo"
+            >
+
+            <div id="footer_link_content">
+                <ul>
+                    <li >
+                        <h3 class="list-title">
+                             blog
+                        </h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            tecnoliga
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                                Programcao
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            Design
+                        </a>
+                    </li>
+                </ul>
+
+
+                      <ul>
+                    <li >
+                        <h3 class="list-title">
+                            Produtos
+                        </h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            App
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                                Desktop
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                        q   Claude
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </footer>
    
 </body>
 </html>
